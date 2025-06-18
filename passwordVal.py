@@ -19,4 +19,4 @@ def is_strong_password(password):
         return False
     if not re.search(r"[!@#$%^&*()_+\-=\[\]{};':\"\\|,.<>\/?]", password):
         return False
-    return True
+    return True  
